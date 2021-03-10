@@ -11,7 +11,7 @@ Today, we will look at two examples of MLP, one for regression and the other for
 ### B. Convolutional Neural Network (CNN)
 In weeks 3-4-5, we will look at a classification example on images. Cats-dogs image repository on Kaggle. We will follow the tutorial given in [2].
 
-<img src="figure/cats_dogs_CNN.png" alt="Cats and dogs classification via CNN." height="240"/>
+<img src="figure/cats_dogs_cnn.png" alt="Cats and dogs classification via CNN." height="240"/>
 
 *Fig. 2: Classification of cat & dog images via CNN.*
 
