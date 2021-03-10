@@ -10,3 +10,4 @@ Today, we will look at two examples of MLP, one for regression and the other for
 In weeks 3-4-5, we will look at a classification example on images. Cats-dogs image repository on Kaggle. We will follow the tutorial given in [2].
 <img src="figure/cats_dogs_CNN.png" alt="Fig. 2: Cats and dogs claasification via CNN." height="240"/>
 *Fig. 2: Classification of cats and dogs via CNN.*
+
