@@ -13,6 +13,9 @@ We will look at MLP doing regression and classification, both supervised learnin
 
 *Fig. 2:* MLP network is going to learn XOR problem.
 
+<img src="figure/xor_MLP.jpg" alt="For the XOR problem, we use a MLP with one hidden layer consisting of sixteen neurons." height="240"/>
+
+*Fig. 3:* For the XOR problem, we use a MLP with one hidden layer consisting of sixteen neurons.
 ### B. Convolutional Neural Network (CNN)
 In weeks X-Y-Z, we will look at a classification example on images. Cats-dogs image repository on Kaggle. We will follow the tutorial given in [2]. Please see Figures 4 and 5 for classification of cat and dog images via CNN. 
 
