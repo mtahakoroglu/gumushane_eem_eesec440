@@ -8,7 +8,7 @@ We will look at MLP doing regression and classification, both supervised learnin
 
 *Fig. 1: A multi input single output MLP.*
 
-### A. Exclusive OR (XOR) Problem
+#### Exclusive OR (XOR) Problem
 <img src="figure/xor_problem_smaller.jpg" alt="MLP network is going to learn XOR problem." height="240"/>
 
 *Fig. 2:* MLP network is going to learn XOR problem.
