@@ -9,11 +9,11 @@ We will look at MLP doing regression and classification, both supervised learnin
 *Fig. 1: A multi input single output MLP.*
 
 #### Exclusive OR (XOR) Problem
-<img src="figure/xor_problem_smaller.jpg" alt="MLP network is going to learn XOR problem." height="240"/>
+<img src="figure/xor_problem_smaller.jpg" alt="MLP network is going to learn XOR problem." height="200"/>
 
 *Fig. 2:* MLP network is going to learn XOR problem.
 
-<img src="figure/xor_MLP.jpg" alt="For the XOR problem, we use a MLP with one hidden layer consisting of sixteen neurons." height="240"/>
+<img src="figure/xor_MLP.jpg" alt="For the XOR problem, we use a MLP with one hidden layer consisting of sixteen neurons." height="360"/>
 
 *Fig. 3:* For the XOR problem, we use a MLP with one hidden layer consisting of sixteen neurons.
 ### B. Convolutional Neural Network (CNN)
