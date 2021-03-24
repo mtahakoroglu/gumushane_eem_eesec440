@@ -9,7 +9,7 @@ We will look at MLP doing regression and classification, both supervised learnin
 *Fig. 1: A multi input single output MLP.*
 
 #### Exclusive OR (XOR) Problem
-<img src="figure/xor_problem_smaller.jpg" alt="MLP network is going to learn XOR problem." height="200"/>
+<img src="figure/xor_problem_smaller.jpg" alt="MLP network is going to learn XOR problem." height="180"/>
 
 *Fig. 2:* MLP network is going to learn XOR problem.
 
@@ -17,7 +17,7 @@ We will look at MLP doing regression and classification, both supervised learnin
 
 *Fig. 3:* For the XOR problem, we use a MLP with one hidden layer consisting of sixteen neurons.
 
-<img src="figure/ANN_MLP_flow_chart.jpg" alt="Error back-propogation algorithm is used to update the network parameters." height="360"/>
+<img src="figure/ANN_MLP_flow_chart.jpg" alt="Error back-propogation algorithm is used to update the network parameters." height="240"/>
 
 *Fig. 4:* Error back-propogation algorithm is used to update the network parameters.
 
