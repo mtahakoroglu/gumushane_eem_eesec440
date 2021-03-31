@@ -1,12 +1,12 @@
 # EESEC 440 English for EEE on DL
 ## I. Artificial Neural Networks
-Artificial neural networks (ANN) are powerful tools used for building complex nonlinear mathematical relationship between input-output data. The increment in computational power provided by the new generation Graphical Processing Units (GPU) in the last decade enabled ANN to solve many engineering problems in various fields of study (e.g., Computer Vision, speech recognition, Natural Language Processing, power transfer [1], etc). There are different flavors of ANN designed for different applications depending on the needs. Multi-layer Perceptron (MLP) is one of the most preferred type of network commonly employed in regression and classification problems, which are two major functions of a ANN.
+Artificial neural networks (ANN) are very powerful tools capable of mapping input data into output data that can have utmost complexity. The increment in computational power provided by the new generation Graphical Processing Units (GPU) in the last decade enabled ANN to solve many engineering problems in various fields of study (e.g., Computer Vision, speech recognition, Natural Language Processing, power transfer [1], etc). There are different flavors of ANN designed for different applications depending on the needs. Multi-layer Perceptron (MLP) is one of the most preferred type of network commonly employed in regression and classification problems, which are two major functions of a ANN.
 ### A. Multi-layer Perceptron
-We will look at MLP doing regression and classification, both supervised learning. Please see Fig. 1 for an example MLP network.
+We will look at MLP elaborately throughout the course. Regression and classification examples, both supervised learning. Please see *Fig. 1* for an example MLP network structure.
 
 <img src="https://www.researchgate.net/profile/Mohamed-Zahran-16/publication/303875065/figure/fig4/AS:371118507610123@1465492955561/A-hypothetical-example-of-Multilayer-Perceptron-Network.png" alt="A multiple input single output MLP." height="240"/>
 
-*Fig. 1: A multi input single output MLP.*
+*Fig. 1:* A multi input single output MLP.
 
 #### Exclusive OR (XOR) Problem
 <img src="figure/xor_problem_smaller.jpg" alt="MLP network is going to learn XOR problem." height="180"/>
