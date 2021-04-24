@@ -39,7 +39,7 @@ n = n2(n1 + 1) + n3(n2 + 1)
 
 n = 4(2 + 1) + 2(4 + 1) = 22 
 
-ayarlanabilen ağırlık vardır.
+ayarlanabilen ağırlık vardır. Ben sizin yerinizde olsam formülü anlamasam bile (ki oldukça basit bir formül) verilen konfigürasyondaki çok katmanlı yapay sinir ağını elimle çizer ve ayarlanabilen ağırlıkları tek tek sayarım. Sınavda, *Fig. 5*'de gördüğümüz zorluk seviyesinde bir soru karşımıza çıkacak.
 #### 2 Boyutlu Sınıflandırma Problemi
 <img src="figure/data annotation midterm question.jpg" alt="A 2d classification problem." height="360"/>
 
