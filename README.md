@@ -35,7 +35,11 @@ n = n2(n1 + 1) + n3(n2 + 1)
 
 *Fig. 5*'de verilen 2 : 3 : 1 konfigürasyonlu ağı formülde test edecek olursak n = 3(2 + 1) + 1(3 + 1) = 3 x 3 + 1 x 4 = 13 değerini onaylamış oluruz.
 
-**Not:** Ara sınavdaki en zor soru **Çok Katmanlı bir Yapay Sinir Ağının Ayarlabilen Parametre (Ağırlık) Sayısı** hakkında denebilir. Ancak soru içinde bütün açıklamalar mevcut. Ayrıca sınav 2 saat, toplam soru sayısı 11 (bütün sorular çoktan seçmeli yani sınav test) dolayısıyla yeterli vakit var. Ayrıca içinizden bazıları bu tarz bir hesaplamayı derste açıkça görmediğimizden bahsedebilir. Çok basit bir soru olmasına rağmen puan kaybı yaşayanlar github hesabı oluşturup derste yaptığımız birkaç örneği hesaplarına iterek telafi ettikleri puanları kazanabilirler kolaylıkla. Size örnek olsun diye buraya bir alıştırma sonucunu yazayım: 2 : 4 : 2 konfigürasyonundaki bir çok katmanlı yapay sinir ağında toplam 4(2 + 1) + 2(4 + 1) = 22 ayarlanabilen ağırlık vardır.
+**Not:** Ara sınavdaki en zor soru **Çok Katmanlı bir Yapay Sinir Ağının Ayarlabilen Parametre (Ağırlık) Sayısı** hakkında denebilir. Ancak soru içinde bütün açıklamalar mevcut. Ayrıca sınav 2 saat, toplam soru sayısı 11 (bütün sorular çoktan seçmeli yani sınav test) dolayısıyla yeterli vakit var. Ayrıca içinizden bazıları bu tarz bir hesaplamayı derste açıkça görmediğimizden bahsedebilir. Çok basit bir soru olmasına rağmen puan kaybı yaşayanlar github hesabı oluşturup derste yaptığımız birkaç örneği hesaplarına iterek telafi ettikleri puanları kazanabilirler kolaylıkla. Size örnek olsun diye buraya bir alıştırma sonucunu yazayım: 2 : 4 : 2 konfigürasyonundaki bir çok katmanlı yapay sinir ağında toplam 
+
+n = 4(2 + 1) + 2(4 + 1) = 22 
+
+ayarlanabilen ağırlık vardır.
 #### 2 Boyutlu Sınıflandırma Problemi
 <img src="figure/data annotation midterm question.jpg" alt="A 2d classification problem." height="360"/>
 
