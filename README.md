@@ -44,14 +44,17 @@ ayarlanabilen ağırlık vardır. Ben sizin yerinizde olsam formülü anlamasam 
 Final sınavında ise burada *Fig. 5*'deki gibi iki katmanlı (giriş katmanı sayılmadığından iki katman deniyor, yoksa üç katmanlı) değil birden fazla gizli katmana sahip bir yapay sinir ağında ne kadar ayarlanabilen parametre (ağırlık) olduğunu soracağım. Dikkatlice düşünecek olursak, yukarıda iki katmanlı (giriş katmanı sayılmadığından iki katman deniyor, yoksa üç katmanlı) bir ağ yapısı için türettiğimiz formülü k-1 katmanlı bir MLP için aşağıdaki gibi genelleştirebiliriz.
 
 <img src="equation/formula number of weights.JPG" alt="Formula for number of weights in a MLP." height="60"/>
+
 #### 2 Boyutlu Sınıflandırma Problemi
 <img src="figure/data annotation midterm question.jpg" alt="A 2d classification problem." height="400"/>
 
 *Fig. 6:* Derste işlediğimiz 2 boyutlu sınıflandırma probleminde en başta karşılaştığımız bazı adımlar.
+
 #### En Küçük Kareler (Least Squares)
 <img src="figure/least squares gradient descent.png" alt="A least squares problem." height="500"/>
 
 *Fig. 7:* Derste işlediğimiz bir boyutlu optimizasyon (veya regresyon) probleminin görselleştirilmiş hali.
+
 ### B. Convolutional Neural Network (CNN)
 We might study classification example on images in the last weeks of the course. Cats-dogs image repository on Kaggle. We will follow the tutorial given in [2]. Please see Figures 8 and 9 for classification of cat and dog images via CNN. 
 
