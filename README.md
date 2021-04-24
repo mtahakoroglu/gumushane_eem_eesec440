@@ -45,11 +45,11 @@ Final sınavında ise burada *Fig. 5*'deki gibi iki katmanlı (giriş katmanı s
 
 <img src="equation/formula number of weights.JPG" alt="Formula for number of weights in a MLP." height="60"/>
 #### 2 Boyutlu Sınıflandırma Problemi
-<img src="figure/data annotation midterm question.jpg" alt="A 2d classification problem." height="360"/>
+<img src="figure/data annotation midterm question.jpg" alt="A 2d classification problem." height="400"/>
 
 *Fig. 6:* Derste işlediğimiz 2 boyutlu sınıflandırma probleminde en başta karşılaştığımız bazı adımlar.
 #### En Küçük Kareler (Least Squares)
-<img src="figure/least squares gradient descent.png" alt="A least squares problem." height="450"/>
+<img src="figure/least squares gradient descent.png" alt="A least squares problem." height="500"/>
 
 *Fig. 7:* Derste işlediğimiz bir boyutlu optimizasyon (veya regresyon) probleminin görselleştirilmiş hali.
 ### B. Convolutional Neural Network (CNN)
