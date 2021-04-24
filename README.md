@@ -25,17 +25,17 @@ We will study MLP elaborately throughout the course. Regression and classificati
 
 *Fig. 5:* A MLP network with one input, three neurons in the hidden layer and single output. This network has 2 : 3 : 1 configuration.
 
-Yukarıda *Fig. 5*'de gösterilen yapay sinir ağının konfigurasyonu 2 : 3 : 1 olup, giriş katmanında iki, gizli katmanında üç ve çıkış katmanında bir nöron bulundurmaktadır (yuvarlaklar nöronları temsil ediyor). Şekilde ayarlanabilen parametre sayısı 13 olarak gözüküyor: w1, w2, w3, w4, w5, w6, w7, w8, w9, w10, w11, w12, w13. Bize verilen konfigürasyona göre ayarlanabilen parametre sayısını hem elimizle çizerek, hem de formülize ederek kısa yoldan hesaplayabiliriz. Formülü siz de düşünerek çıkarabilirsiniz. Giriş, çıkış ve bir gizli katmandan oluşan bir yapay sinir ağındaki toplam ayarlanabilen parametre sayısını bulan formül şöyle:
+Yukarıda *Fig. 5*'de gösterilen yapay sinir ağının konfigurasyonu 2 : 3 : 1 olup, giriş katmanında iki, gizli katmanında üç ve çıkış katmanında bir nöron bulundurmaktadır (yuvarlaklar nöronları temsil ediyor). Şekilde ayarlanabilen parametre sayısı 13 olarak gözüküyor: w1, w2, w3, w4, w5, w6, w7, w8, w9, w10, w11, w12, w13. Ara sınavda bize verilen konfigürasyona göre ayarlanabilen parametre sayısını hem elimizle çizerek, hem de formülize ederek kısa yoldan hesaplayabiliriz. Formülü siz de düşünerek çıkarabilirsiniz. Giriş, çıkış ve bir gizli katmandan oluşan bir yapay sinir ağındaki toplam ayarlanabilen parametre (ağırlık - weight) sayısını bulan formül şöyle:
 
 n = (n1 x n2 + n2) + (n2 x n3 + n3)
 
-Burada n1 giriş katmanındaki nöron sayısı, n2 gizli katmandaki nöron sayısı ve n3 çıkış katmanındaki nöron sayısı olrken n ise toplam ayarlanabilen parametre yani ağırlık (weight - w) sayısı. Yukardaki formülde uygun terimler ortak parantez alınırsa, formül aşağıdaki halini alır:
+Burada n1 giriş katmanındaki nöron sayısı, n2 gizli katmandaki nöron sayısı ve n3 çıkış katmanındaki nöron sayısı olurken n ise toplam ayarlanabilen parametre yani ağırlık (weight - w) sayısı. Yukardaki formülde uygun terimler ortak parantez alınırsa, formül aşağıdaki halini alır:
 
 n = n2(n1 + 1) + n3(n2 + 1)
 
 *Fig. 5*'de verilen 2 : 3 : 1 konfigürasyonlu ağı formülde test edecek olursak n = 3(2 + 1) + 1(3 + 1) = 3 x 3 + 1 x 4 = 13 değerini onaylamış oluruz.
 
-**Not:** Ara sınavdaki en zor soru **Çok Katmanlı bir Yapay Sinir Ağının Ayarlabilen Parametre (Ağırlık) Sayısı** hakkında denebilir. Ancak soru içinde bütün açıklamalr mevcut. Ayrıca sınav 2 saat, toplam soru sayısı 11 (bütün sorular çoktan seçmeli yani sınav test) dolayısıyla yeterli vakit var. Ayrıca içinizden bazıları bu tarz bir hesaplamayı derste açıkça görmediğimizden bahsedebilir. Çok basit bir soru olmasına rağmen puan kaybı yaşayanlar github hesabı oluşturup derste yaptığımız birkaç örneği hesaplarına iterek telafi ettikleri puanları kazanabilirler kolaylıkla.
+**Not:** Ara sınavdaki en zor soru **Çok Katmanlı bir Yapay Sinir Ağının Ayarlabilen Parametre (Ağırlık) Sayısı** hakkında denebilir. Ancak soru içinde bütün açıklamalar mevcut. Ayrıca sınav 2 saat, toplam soru sayısı 11 (bütün sorular çoktan seçmeli yani sınav test) dolayısıyla yeterli vakit var. Ayrıca içinizden bazıları bu tarz bir hesaplamayı derste açıkça görmediğimizden bahsedebilir. Çok basit bir soru olmasına rağmen puan kaybı yaşayanlar github hesabı oluşturup derste yaptığımız birkaç örneği hesaplarına iterek telafi ettikleri puanları kazanabilirler kolaylıkla. Size örnek olsun diye buraya bir alıştırma sonucunu yazayım: 2 : 4 : 2 konfigürasyonundaki bir çok katmanlı yapay sinir ağında toplam 4(2 + 1) + 2(4 + 1) = 22 ayarlanabilen ağırlık vardır.
 #### 2 Boyutlu Sınıflandırma Problemi
 <img src="figure/data annotation midterm question.jpg" alt="A 2d classification problem." height="360"/>
 
