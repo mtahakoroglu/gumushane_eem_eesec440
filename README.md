@@ -21,7 +21,7 @@ We will study MLP elaborately throughout the course. Regression and classificati
 
 *Fig. 4:* Error back-propogation algorithm (e.g., Gradient Descent) is used to update the network parameters.
 #### Çok Katmanlı bir Yapay Sinir Ağının Ayarlabilen Parametre (Ağırlık) Sayısı
-<img src="figure/MLP specific.jpg" alt="A MLP network with one input, three neurons in the hidden layer and single output." height="300"/>
+<img src="figure/MLP specific.jpg" alt="A MLP network with one input, three neurons in the hidden layer and single output." height="360"/>
 
 *Fig. 5:* A MLP network with one input, three neurons in the hidden layer and single output. This network has 2 : 3 : 1 configuration.
 
@@ -37,23 +37,23 @@ n = n2(n1 + 1) + n3(n2 + 1)
 
 **Not:** Ara sınavdaki en zor soru **Çok Katmanlı bir Yapay Sinir Ağının Ayarlabilen Parametre (Ağırlık) Sayısı** hakkında denebilir. Ancak soru içinde bütün açıklamalr mevcut. Ayrıca sınav 2 saat, toplam soru sayısı 11 (bütün sorular çoktan seçmeli yani sınav test) dolayısıyla yeterli vakit var. Ayrıca içinizden bazıları bu tarz bir hesaplamayı derste açıkça görmediğimizden bahsedebilir. Çok basit bir soru olmasına rağmen puan kaybı yaşayanlar github hesabı oluşturup derste yaptığımız birkaç örneği hesaplarına iterek telafi ettikleri puanları kazanabilirler kolaylıkla.
 #### 2 Boyutlu Sınıflandırma Problemi
-<img src="figure/data annotation midterm question.jpg" alt="A 2d classification problem." height="300"/>
+<img src="figure/data annotation midterm question.jpg" alt="A 2d classification problem." height="360"/>
 
 *Fig. 6:* Derste işlediğimiz 2 boyutlu sınıflandırma probleminde en başta karşılaştığımız bazı adımlar.
 #### En Küçük Kareler (Least Squares)
-<img src="figure/least squares gradient descent.png" alt="A least squares problem." height="400"/>
+<img src="figure/least squares gradient descent.png" alt="A least squares problem." height="450"/>
 
 *Fig. 7:* Derste işlediğimiz bir boyutlu optimizasyon (veya regresyon) probleminin görselleştirilmiş hali.
 ### B. Convolutional Neural Network (CNN)
-In weeks X-Y-Z, we will look at a classification example on images. Cats-dogs image repository on Kaggle. We will follow the tutorial given in [2]. Please see Figures 5 and 6 for classification of cat and dog images via CNN. 
+We might study classification example on images in the last weeks of the course. Cats-dogs image repository on Kaggle. We will follow the tutorial given in [2]. Please see Figures 8 and 9 for classification of cat and dog images via CNN. 
 
 <img src="figure/cats_dogs_cnn.png" alt="Cats and dogs classification via CNN." height="240"/>
 
-*Fig. 7: Classification of cat & dog images via CNN.*
+*Fig. 8: Classification of cat & dog images via CNN.*
 
 <img src="figure/cats_dogs_classification.gif" alt="Cats and dogs classification with deep learning." height="240"/>
 
-*Fig. 8: Cats and dogs classification with deep learning.*
+*Fig. 9: Cats and dogs classification with deep learning.*
 
 
 ## References
